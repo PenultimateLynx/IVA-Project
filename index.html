@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Compra con IVA</title>
+</head>
+
+<body>
+    <!-- Titulo -->
+    <section id="seccion-titulo">
+        <h1 id="centrarTitulo">Ingrese el precio</h1>
+        <h2 id="centrarTitulo">Y se calculará el precio total con IVA</h2>
+        <br><br>
+    </section>
+    <!-- Input -->
+    <section id="seccion">
+        <label>Ingrese el precio original del producto.</label> <br>
+        <input type="number" id="precioSinIva" placeholder="Precio">
+        <button id="enviar" onclick="calculoDeIva()">Calcular</button>
+
+
+    </section>
+    <!-- Resultado -->
+    <br><br>
+    <section id="seccion">
+
+        <h3 id="resultado"></h3>
+
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

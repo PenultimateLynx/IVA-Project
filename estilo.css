@@ -1,0 +1,32 @@
+/* Titulo */
+#centrarTitulo{
+    text-align: center;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+/* Input */
+#seccion{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+}
+#precioSinIva{
+    background-color: rgb(240, 240, 240);
+    border: 1px solid black;
+    height: 22px;
+}
+#enviar {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(100, 200, 60);
+    font-weight: 700;
+    padding: 6px;
+    margin-top: 10px;
+}
+#resultado {
+    display: none;
+}
+
